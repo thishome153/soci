@@ -12,6 +12,8 @@
 find_path(FIREBIRD_INCLUDE_DIR ibase.h
   /usr/include
   $ENV{ProgramFiles}/Firebird/*/include
+  C:/Program Files/Firebird/Firebird_2_5/include
+
 )
 
 if(SOCI_FIREBIRD_EMBEDDED)
@@ -26,6 +28,7 @@ find_library(FIREBIRD_LIBRARIES
   PATHS
     /usr/lib
     $ENV{ProgramFiles}/Firebird/*/lib
+    C:\\Program Files\\Firebird\\Firebird_2_5\\lib
 )
 
 # fbembed ?

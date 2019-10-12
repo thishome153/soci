@@ -15,6 +15,114 @@
           "name": "WITH_SQLITE3",
           "value": "False",
           "type": "BOOL"
+        },
+        {
+          "name": "SOCI_EMPTY",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "SOCI_ODBC",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "LIBDIR",
+          "value": "lib",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "x86-Debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "buildRoot": "c:\\Temp\\soci\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "-v",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "msvc_x86" ],
+      "variables": [
+        {
+          "name": "WITH_SQLITE3",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_ORACLE",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_BOOST",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_ODBC",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "SOCI_ODBC",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "SOCI_EMPTY",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_POSTGRESQL",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_THREADS",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_DB2",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "SOCI_FIREBIRD_EMBEDDED",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "WITH_MYSQL",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "INCLUDEDIR",
+          "value": "include",
+          "type": "PATH"
+        },
+        {
+          "name": "LIBDIR",
+          "value": "lib",
+          "type": "PATH"
+        },
+        {
+          "name": "DATADIR",
+          "value": "share_datadir",
+          "type": "PATH"
+        },
+        {
+          "name": "MYSQL_FOUND",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BOOST_FOUND",
+          "value": "True",
+          "type": "BOOL"
         }
       ]
     }
